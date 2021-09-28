@@ -7,9 +7,9 @@
 
 import UIKit
 
-class Demo2ViewController: UIViewController {
+public class Demo2ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
