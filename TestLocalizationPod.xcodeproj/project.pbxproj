@@ -10,6 +10,8 @@
 		989EED8C2702BE73008B04A6 /* TestLocalizationPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 989EED8A2702BE73008B04A6 /* TestLocalizationPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		989EED942702BEC5008B04A6 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989EED922702BEC5008B04A6 /* DemoViewController.swift */; };
 		989EED962702BF04008B04A6 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989EED982702BF04008B04A6 /* DemoViewController.xib */; };
+		989EEDA02702F2B4008B04A6 /* Demo2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989EED9E2702F2B4008B04A6 /* Demo2ViewController.swift */; };
+		989EEDA12702F2B4008B04A6 /* Demo2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989EED9F2702F2B4008B04A6 /* Demo2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		989EED992702BF0A008B04A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DemoViewController.xib; sourceTree = "<group>"; };
 		989EED9B2702BFF7008B04A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DemoViewController.strings; sourceTree = "<group>"; };
 		989EED9D2702C004008B04A6 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/DemoViewController.strings; sourceTree = "<group>"; };
+		989EED9E2702F2B4008B04A6 /* Demo2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo2ViewController.swift; sourceTree = "<group>"; };
+		989EED9F2702F2B4008B04A6 /* Demo2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				989EED8A2702BE73008B04A6 /* TestLocalizationPod.h */,
 				989EED8B2702BE73008B04A6 /* Info.plist */,
 				989EED922702BEC5008B04A6 /* DemoViewController.swift */,
+				989EED9E2702F2B4008B04A6 /* Demo2ViewController.swift */,
+				989EED9F2702F2B4008B04A6 /* Demo2ViewController.xib */,
 				989EED982702BF04008B04A6 /* DemoViewController.xib */,
 			);
 			path = TestLocalizationPod;
@@ -130,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989EEDA12702F2B4008B04A6 /* Demo2ViewController.xib in Resources */,
 				989EED962702BF04008B04A6 /* DemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989EEDA02702F2B4008B04A6 /* Demo2ViewController.swift in Sources */,
 				989EED942702BEC5008B04A6 /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
