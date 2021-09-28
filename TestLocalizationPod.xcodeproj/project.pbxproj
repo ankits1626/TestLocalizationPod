@@ -25,6 +25,8 @@
 		989EED9E2702F2B4008B04A6 /* Demo2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo2ViewController.swift; sourceTree = "<group>"; };
 		989EEDA327030138008B04A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Demo2ViewController.xib; sourceTree = "<group>"; };
 		989EEDA62703013A008B04A6 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Demo2ViewController.strings; sourceTree = "<group>"; };
+		989EEDD727030C79008B04A6 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Demo2ViewController.strings"; sourceTree = "<group>"; };
+		989EEDD827030C79008B04A6 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/DemoViewController.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				en,
 				Base,
 				hi,
+				"en-IN",
 			);
 			mainGroup = 989EED7D2702BE73008B04A6;
 			productRefGroup = 989EED882702BE73008B04A6 /* Products */;
@@ -163,6 +166,7 @@
 				989EED992702BF0A008B04A6 /* Base */,
 				989EED9B2702BFF7008B04A6 /* en */,
 				989EED9D2702C004008B04A6 /* hi */,
+				989EEDD827030C79008B04A6 /* en-IN */,
 			);
 			name = DemoViewController.xib;
 			sourceTree = "<group>";
@@ -172,6 +176,7 @@
 			children = (
 				989EEDA327030138008B04A6 /* Base */,
 				989EEDA62703013A008B04A6 /* hi */,
+				989EEDD727030C79008B04A6 /* en-IN */,
 			);
 			name = Demo2ViewController.xib;
 			sourceTree = "<group>";
