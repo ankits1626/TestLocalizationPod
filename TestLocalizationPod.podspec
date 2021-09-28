@@ -11,8 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "12.0"
   #spec.source       = { :http => 'file:' + __dir__ + "/" }
   spec.source       = { :git => "https://github.com/ankits1626/TestLocalizationPod.git", :tag => "0.0.2" }
-  spec.source_files = "TestLocalizationPod/*.{swift}"
-  spec.resources =  'TestLocalizationPod/*.lproj', "TestLocalizationPod/*.{xib,png,jpg,jpeg,storyboard}", "TestLocalizationPod/**/*.{xib,png,jpg,jpeg,storyboard}"
-  spec.resource_bundle =  {'TestLocalizationPod' => ['TestLocalizationPod/*.lproj']}
+  spec.source_files = "TestLocalizationPod/*.{swift}", "TestLocalizationPod/**/*.{xib,png,jpg,jpeg,storyboard}", 'TestLocalizationPod/*.lproj/*.strings'
+#   spec.resources =  'TestLocalizationPod/*.lproj/*.strings', "TestLocalizationPod/*.{xib,png,jpg,jpeg,storyboard}", "TestLocalizationPod/**/*.{xib,png,jpg,jpeg,storyboard}"
   spec.swift_version = "5.0"
 end
