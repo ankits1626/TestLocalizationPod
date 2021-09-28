@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
   #spec.source       = { :http => 'file:' + __dir__ + "/" }
   spec.source       = { :git => "https://github.com/ankits1626/TestLocalizationPod.git", :tag => "0.0.2" }
   spec.source_files = "TestLocalizationPod/*.{swift}", 'TestLocalizationPod/*.lproj', "TestLocalizationPod/**/*.{xib,png,jpg,jpeg,storyboard}"
-  spec.resources =  'TestLocalizationPod/*.lproj', "TestLocalizationPod/*.{xib,png,jpg,jpeg,storyboard}", "TestLocalizationPod/**/*.{xib,png,jpg,jpeg,storyboard}"
+  #spec.resources =  'TestLocalizationPod/*.lproj', "TestLocalizationPod/*.{xib,png,jpg,jpeg,storyboard}", "TestLocalizationPod/**/*.{xib,png,jpg,jpeg,storyboard}"
   spec.swift_version = "5.0"
 end
