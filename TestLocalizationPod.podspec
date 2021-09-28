@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => 'file:' + __dir__ + "/" }
   # spec.source       = { :git => "https://github.com/ankits1626/TestLocalizationPod.git", :tag => "0.0.1" }
   spec.source_files = "TestLocalizationPod/*.{swift}"
-  spec.resources =  'TestLocalizationPod/*.lproj', "TestLocalizationPod/*.{xib,png,jpg,jpeg,storyboard}"
+  spec.resources =  'TestLocalizationPod/*.lproj', "TestLocalizationPod/*.{xib,png,jpg,jpeg,storyboard}", "TestLocalizationPod/**/*.{xib,png,jpg,jpeg,storyboard}"
   spec.resource_bundle =  {'TestLocalizationPod' => ['TestLocalizationPod/*.lproj']}
   spec.swift_version = "5.0"
 end
