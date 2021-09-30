@@ -12,6 +12,8 @@
 		989EED962702BF04008B04A6 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989EED982702BF04008B04A6 /* DemoViewController.xib */; };
 		989EEDA02702F2B4008B04A6 /* Demo2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989EED9E2702F2B4008B04A6 /* Demo2ViewController.swift */; };
 		989EEDA227030138008B04A6 /* Demo2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989EEDA427030138008B04A6 /* Demo2ViewController.xib */; };
+		989EEDE027058B6B008B04A6 /* Demo3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989EEDDE27058B6B008B04A6 /* Demo3ViewController.swift */; };
+		989EEDE227058B71008B04A6 /* Demo3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989EEDE427058B71008B04A6 /* Demo3ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,10 @@
 		989EEDA62703013A008B04A6 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Demo2ViewController.strings; sourceTree = "<group>"; };
 		989EEDD727030C79008B04A6 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Demo2ViewController.strings"; sourceTree = "<group>"; };
 		989EEDD827030C79008B04A6 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/DemoViewController.strings"; sourceTree = "<group>"; };
+		989EEDDE27058B6B008B04A6 /* Demo3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo3ViewController.swift; sourceTree = "<group>"; };
+		989EEDE327058B71008B04A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Demo3ViewController.xib; sourceTree = "<group>"; };
+		989EEDEA27058BBA008B04A6 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Demo3ViewController.strings"; sourceTree = "<group>"; };
+		989EEDEC27058BBE008B04A6 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Demo3ViewController.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 		989EED892702BE73008B04A6 /* TestLocalizationPod */ = {
 			isa = PBXGroup;
 			children = (
+				989EEDDB27058B37008B04A6 /* First Level */,
 				989EED8A2702BE73008B04A6 /* TestLocalizationPod.h */,
 				989EED8B2702BE73008B04A6 /* Info.plist */,
 				989EED922702BEC5008B04A6 /* DemoViewController.swift */,
@@ -67,6 +74,31 @@
 				989EED982702BF04008B04A6 /* DemoViewController.xib */,
 			);
 			path = TestLocalizationPod;
+			sourceTree = "<group>";
+		};
+		989EEDDB27058B37008B04A6 /* First Level */ = {
+			isa = PBXGroup;
+			children = (
+				989EEDDC27058B43008B04A6 /* Second Level */,
+			);
+			path = "First Level";
+			sourceTree = "<group>";
+		};
+		989EEDDC27058B43008B04A6 /* Second Level */ = {
+			isa = PBXGroup;
+			children = (
+				989EEDDD27058B4C008B04A6 /* Third Level */,
+			);
+			path = "Second Level";
+			sourceTree = "<group>";
+		};
+		989EEDDD27058B4C008B04A6 /* Third Level */ = {
+			isa = PBXGroup;
+			children = (
+				989EEDDE27058B6B008B04A6 /* Demo3ViewController.swift */,
+				989EEDE427058B71008B04A6 /* Demo3ViewController.xib */,
+			);
+			path = "Third Level";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +174,7 @@
 			files = (
 				989EEDA227030138008B04A6 /* Demo2ViewController.xib in Resources */,
 				989EED962702BF04008B04A6 /* DemoViewController.xib in Resources */,
+				989EEDE227058B71008B04A6 /* Demo3ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				989EEDA02702F2B4008B04A6 /* Demo2ViewController.swift in Sources */,
+				989EEDE027058B6B008B04A6 /* Demo3ViewController.swift in Sources */,
 				989EED942702BEC5008B04A6 /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,6 +213,16 @@
 				989EEDD727030C79008B04A6 /* en-IN */,
 			);
 			name = Demo2ViewController.xib;
+			sourceTree = "<group>";
+		};
+		989EEDE427058B71008B04A6 /* Demo3ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989EEDE327058B71008B04A6 /* Base */,
+				989EEDEA27058BBA008B04A6 /* en-IN */,
+				989EEDEC27058BBE008B04A6 /* hi */,
+			);
+			name = Demo3ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
